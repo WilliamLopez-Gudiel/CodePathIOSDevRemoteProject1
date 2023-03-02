@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IOm-rM-YKm">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Willy Lopez-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="wWs-zC-AiN">
+                                <rect key="frame" x="50" y="103" width="293" height="715"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Willy" translatesAutoresizingMaskIntoConstraints="NO" id="UnF-6r-azn">
+                                        <rect key="frame" x="0.0" y="0.0" width="293" height="306"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="-8" translatesAutoresizingMaskIntoConstraints="NO" id="kJ3-fu-SCr">
+                                        <rect key="frame" x="54.000000000000014" y="319" width="185.33333333333337" height="333"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hk8-5M-tmj">
+                                                <rect key="frame" x="0.0" y="0.0" width="185.33333333333334" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="My Cool Backstory"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ts-1T-M1k"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA5-Ku-eTR">
+                                                <rect key="frame" x="0.0" y="149.33333333333337" width="185.33333333333334" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="My Only Weakness"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efm-Cf-xTX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4e-jc-D7H">
+                                                <rect key="frame" x="0.0" y="298.66666666666663" width="185.33333333333334" height="34.333333333333314"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="How Much Can I Lift?"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XnR-LT-UMl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" verticalHuggingPriority="245" horizontalCompressionResistancePriority="745" verticalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="oY9-QX-1n4">
+                                        <rect key="frame" x="0.0" y="665" width="293" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wWs-zC-AiN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OR7-Xp-Q8L"/>
+                            <constraint firstItem="wWs-zC-AiN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="kQI-5t-x5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wWs-zC-AiN" secondAttribute="trailing" constant="50" id="lWj-5g-Jmr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wWs-zC-AiN" secondAttribute="bottom" id="y4A-RH-ZLz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Willy Lopez" id="3ZJ-0b-cV3"/>
+                    <connections>
+                        <outlet property="navBar" destination="3ZJ-0b-cV3" id="jSC-eI-YBd"/>
+                        <outlet property="profilePic" destination="UnF-6r-azn" id="4XF-6Y-TUo"/>
+                        <segue destination="Qnu-PS-Njo" kind="show" identifier="theSegue" id="pPs-Tg-Vxn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--Story View Controller-->
+        <scene sceneID="5v6-Xg-SES">
+            <objects>
+                <viewController id="Qnu-PS-Njo" customClass="StoryViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9PI-ta-uxF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wHm-Sb-u6i">
+                                <rect key="frame" x="50" y="103" width="293" height="715"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="baC-CY-Fr1">
+                                        <rect key="frame" x="0.0" y="0.0" width="293" height="225"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7L-AL-6Jy">
+                                        <rect key="frame" x="0.0" y="233" width="293" height="482"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KHB-Gm-2JV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KHB-Gm-2JV" firstAttribute="bottom" secondItem="wHm-Sb-u6i" secondAttribute="bottom" id="9DS-Fb-7DP"/>
+                            <constraint firstItem="wHm-Sb-u6i" firstAttribute="leading" secondItem="KHB-Gm-2JV" secondAttribute="leading" constant="50" id="BxA-UB-0bF"/>
+                            <constraint firstItem="KHB-Gm-2JV" firstAttribute="trailing" secondItem="wHm-Sb-u6i" secondAttribute="trailing" constant="50" id="Gip-Cw-mSa"/>
+                            <constraint firstItem="wHm-Sb-u6i" firstAttribute="top" secondItem="KHB-Gm-2JV" secondAttribute="top" id="XBl-Mu-2SA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gG6-wH-lAi"/>
+                    <connections>
+                        <outlet property="imageStory" destination="baC-CY-Fr1" id="y1a-rd-JQC"/>
+                        <outlet property="navBar" destination="gG6-wH-lAi" id="cuX-4N-xQI"/>
+                        <outlet property="theStory" destination="w7L-AL-6Jy" id="Qrg-v7-g37"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3EW-6K-SUf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1904.5801526717557" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BFr-w8-cyA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IOm-rM-YKm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2CI-3A-hTK">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dMg-h4-qvQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7y-hu-Bi1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3.8167938931297707" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Willy" width="306" height="306"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
