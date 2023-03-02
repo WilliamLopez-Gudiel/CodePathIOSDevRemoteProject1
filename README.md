@@ -1,6 +1,6 @@
 # Project 1 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Mystory**
 
 **Name of your app** is an app that introduces ... [TODO] 
 
