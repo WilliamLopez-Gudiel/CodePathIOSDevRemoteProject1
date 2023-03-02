@@ -1,10 +1,10 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *mystory*
 
-Submitted by: **Mystory**
+Submitted by: **william lopez gudiel**
 
-**Name of your app** is an app that introduces ... [TODO] 
+**Project1** is an app that introduces ... [TODO] 
 
-Time spent: **X** hours spent in total
+Time spent: **24** hours spent in total
 
 ## Required Features
 
